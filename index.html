@@ -7,14 +7,16 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     
     <title>NASA Rovers</title>
 </head>
-<body class="bg-secondary">
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Nasa Rovers</a>
+        <div id="navbarContainer" class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" alt=""></a>
+          <h5 id="logoText">NASA Random Rover Pics</h5>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,33 +38,39 @@
           </div>
         </div>
       </nav>
-    <div class="mx-auto">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
+      <div class="card text-center">
+        <div class="card-body">
+          <p class="card-text">Här är det enda stället där du kan se slumpvis utvalda bilder ifrån Nasas mars-rovers. Välj en rover så visas bilder från en slumpvis vald dag/sol. Läs mer om vad en sol är <a href="https://sv.wikipedia.org/wiki/Sol_(tidsenhet)">här</a></p>
+        </div>
+      </div>
+    <div id="container" class="mx-auto">
+        
+        <div class="col p-3">
+            <div class="card mx-auto w-75">
                 <img src="https://mars.nasa.gov/system/feature_items/images/6037_msl_banner.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Curiosity</h5>
-                  <a href="curiosity.html" class="btn btn-primary">Mer information och bilder</a>
+                  <a href="curiosity.html" class="btn">Mer information och bilder</a>
                 </div>
             </div>
         </div>
         
-        <div class="col">
-            <div class="card" style="width: 18rem;">
+        <div class="col p-3">
+            <div class="card mx-auto w-75">
                 <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/16q3/669461/we-drive-the-mars-opportunity-rover-review-car-and-driver-photo-671067-s-original.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Opportunity</h5>
-                  <a href="opportunity.html" class="btn btn-primary">Mer information och bilder</a>
+                  <a href="opportunity.html" class="btn">Mer information och bilder</a>
                 </div>
               </div>
         </div>
         
-        <div class="col">
-            <div class="card" style="width: 18rem;">
+        <div class="col p-3">
+            <div class="card mx-auto w-75">
                 <img src="https://solarsystem.nasa.gov/system/content_pages/main_images/1068_rover2-1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Spirit</h5>
-                  <a href="spirit.html" class="btn btn-primary">Mer information och bilder</a>
+                  <a href="spirit.html" class="btn">Mer information och bilder</a>
                 </div>
               </div> 
         </div>

@@ -19,7 +19,7 @@ const printData = async (roverName) => {
     for (let i = 0; i < picData.photos.length; i++)
     {
         const div = document.createElement("div");
-        div.className = "card mx-auto";
+        div.className = "card mx-auto p-2 w-75";
         div.style = "width: 20rem;"
         const img = document.createElement("img");
         img.src = picData.photos[i].img_src;

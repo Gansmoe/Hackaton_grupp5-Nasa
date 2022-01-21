@@ -1,0 +1,20 @@
+#container {
+    background: url("https://literaryyard.files.wordpress.com/2019/03/neida-zarate-796684-unsplash.jpg");
+    background-size: contain;
+}
+
+#nav-container {
+    background: url("https://images.unsplash.com/photo-1534175507998-e5477e27c2c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+}
+
+.btn {
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+#logoText{
+    
+    padding-right: 60px;
+    font-size: 15px;
+}
+
